@@ -9,7 +9,6 @@ server.bind((HOST, PORT)) # pass tuple
 # start listening for incoming connections
 # 5 how many unaccepted connections do we allow before we reject new ones
 server.listen(5)
-server.
 
 while True:
     # accept every connection that we have
